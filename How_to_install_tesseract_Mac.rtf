@@ -1,0 +1,73 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red255\green255\blue255;\red16\green60\blue192;
+}
+{\*\expandedcolortbl;;\cssrgb\c13333\c13333\c13333;\cssrgb\c100000\c100000\c100000;\cssrgb\c6667\c33333\c80000;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16680\viewh12100\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Welcome to the OCR workshop!\
+Let\'92s get started!\
+\
+Download the code (as zip file) from https://github.com/ektavats/OCR-tesseract-SE/tree/main\
+Save it on your laptop, working folder.\
+Copy some sample images in this folder, if any.\
+\
+Follow these instructions for setting up the OCR code.\
+\
+\cb1 \
+\cb3 Mac OS:\
+\
+1. Download anaconda: {\field{\*\fldinst{HYPERLINK "https://www.anaconda.com/products/individual"}}{\fldrslt \cf4 \ul \ulc4 https://www.anaconda.com/products/individual}}\cb1 \
+\cb3 2. Install anaconda (pkg file in Downloads folder, follow default options)\cb1 \
+\cb3 3. Open terminal\cb1 \
+\cb3 4. conda create --name pytess (press y, enter)\cb1 \
+\cb3 5. conda activate pytess\
+7. Install latest Python: \
+ - brew install python3\
+8. Check if python is installed. In the terminal, type python3, press enter. Error? Type exit()\
+9. Install pip:\
+ - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py\
+ - python3 get-pip.py\
+10. pip install Jupyter lab\
+11. pip install pytesseract\
+12. Install tesseract: \
+ - The easiest way to install Tesseract OCR on Mac is using Homebrew. \
+ - If you don't have Homebrew installed, just go to Homebrew's site (http://brew.sh/), open your terminal, and run the Ruby script that is on the front page. \
+- You may be required to type in your administrator password.\
+ - brew install tesseract\
+ - The tesseract directory can then be found using brew info tesseract (if needed)\
+ - e.g. /opt/homebrew/Cellar/tesseract/4.1.3/\
+13. In the terminal type: tesseract\
+ - Any error? If not, then we are good :)\
+ - Error (tesseract not found)? Add tesseract path to system environment. \
+14. The English language is already included in this installation. If you want to install other language packs, just run the following command:\cb1 \
+\cb3  - brew install tesseract --all-languages \
+15. type: tesseract --list-langs \
+ - can you see all the languages? \
+- If not, restart the terminal and type the same command after: conda activate pytess\cb1 \
+\cb3 16. pip install matplotlib\cb1 \
+\cb3 17. pip install opencv-python\cb1 \
+\cb3 18. type: jupyter lab\cb1 \
+\cb3 19. select OCR_singleImage.ipynb. Run (two arrow buttons).\cb1 \
+\cb3 \
+\
+\
+NOTE:\
+To run the code after the set up, or for future use:\cb1 \
+\cb3 1. Open the terminal\cb1 \
+\cb3 2. conda activate pytess\cb1 \
+\cb3 3. cd your/code/folder/path\cb1 \
+\cb3 4. jupyter lab\
+\
+NOTE:\
+For details on more languages: {\field{\*\fldinst{HYPERLINK "https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html"}}{\fldrslt \cf4 \ul \ulc4 https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html}}\cf4 \ul \ulc4 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \ulnone For adding more languages, simply use "swe + eng + deu" (e.g. Swedish, English, German.)\
+\
+\
+NOTE: select OCR_textExtractor, edit cell 14, if needed (throw errors):\cb1 \
+\cb3 \'a0- int(float(img_details......}
