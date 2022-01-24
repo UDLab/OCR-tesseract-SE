@@ -15,9 +15,9 @@ OCR program based on [Pytesseract](https://pypi.org/project/pytesseract/) - a wr
 
 ## Usage
 
-* Run OCR_singleImage.ipynb to produce a searchable Pdf and OCR text as an output.
-* Run OCR_multipleImage.ipynb to process multiple images in batches.
-* Run OCR_textExtractor.ipynb to perform text detection using pytesseract.
+* Run [OCR_singleImage.ipynb](https://github.com/ektavats/OCR-tesseract-SE/blob/main/OCR_singleImage.ipynb) to produce a searchable Pdf and OCR text as an output.
+* Run [OCR_multipleImage.ipynb](https://github.com/ektavats/OCR-tesseract-SE/blob/main/OCR_multipleImages.ipynb) to process multiple images in batches.
+* Run [OCR_textExtractor.ipynb](https://github.com/ektavats/OCR-tesseract-SE/blob/main/OCR_textExtractor.ipynb) to perform text detection using pytesseract.
 
 
 ## For non-technical users
@@ -31,4 +31,7 @@ If you are from non-technical background, and would like to set up pytesseract o
 
 ## Contact
 
-Ekta Vats (ekta.vats@abm.uu.se)
+Ekta Vats (ekta.vats@abm.uu.se) <br />
+Centre for Digital Humanities <br />
+Uppsala University <br />
+Sweden
