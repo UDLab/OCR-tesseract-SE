@@ -20,6 +20,10 @@ OCR program based on [Pytesseract](https://pypi.org/project/pytesseract/) - a wr
 * Run OCR_textExtractor.ipynb to perform text detection using pytesseract.
 
 
+## For non-technical users
+If you are from non-technical background, and would like to set up pytesseract on your computer from scratch, please refer to instructions here: [Mac](https://github.com/ektavats/OCR-tesseract-SE/blob/main/How_to_install_tesseract_Mac.txt), [Windows](https://github.com/ektavats/OCR-tesseract-SE/blob/main/How_to_install_tesseract_windows.txt). The guide also includes instructions to set up python and virtual environment.
+
+
 ## Acknowledgements
 
 * Our implementation is based on [Google's tesseract OCR engine](https://github.com/tesseract-ocr/tesseract).
