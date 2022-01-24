@@ -2,7 +2,7 @@ Welcome to the OCR workshop!
 Let’s get started!
 
 Download the code (as zip file) from https://github.com/ektavats/OCR-tesseract-SE/tree/main
-Save it on your laptop, working folder.
+Save it on your computer, working folder.
 Copy some sample images in this folder, if any.
 
 Follow these instructions for setting up the OCR code.
@@ -41,8 +41,7 @@ Windows OS:
 17. pip install matplotlib
 18. pip install opencv-python
 19. type: jupyter lab
-20. select OCR_singleImage.ipynb. Run (two arrow buttons).
-
+20. open OCR_singleImage.ipynb. Run (two arrow buttons).
 
 
 NOTE:
@@ -54,8 +53,4 @@ To run the code after the set up, or for future use:
 
 NOTE:
 For details on more languages: https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html
-For adding more languages, simply use "swe + eng + deu" (e.g. Swedish, English, German.)
-
-
-NOTE: select OCR_textExtractor, edit cell 14, if needed (throw errors):
- - int(float(img_details......
+For adding more languages, simply use e.g. "swe + eng + deu" (i.e. Swedish, English, German.)
