@@ -1,5 +1,4 @@
-Welcome to the OCR workshop!
-Let’s get started!
+Beginners guide to setting up tesseract, tailored for non-technical users!
 
 Download the code (as zip file) from https://github.com/ektavats/OCR-tesseract-SE/tree/main
 Save it on your computer, working folder.
