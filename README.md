@@ -1,6 +1,6 @@
 # OCR-tesseract-SE
 
-OCR program based on pytesseract - a wrapper for [Tesseract](https://github.com/tesseract-ocr/tesseract). It includes language models to enhance the OCR performance.
+OCR program based on [Pytesseract](https://pypi.org/project/pytesseract/) - a wrapper for [Tesseract](https://github.com/tesseract-ocr/tesseract). It includes language models to enhance the OCR performance.
 
 
 ## Getting started
