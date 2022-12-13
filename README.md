@@ -12,6 +12,8 @@ OCR program based on [Pytesseract](https://pypi.org/project/pytesseract/) - a wr
 * Add tesseract path to system environment variable
 * Download language models [here](https://github.com/tesseract-ocr/tessdata).
 
+* [Google colab notebook](https://colab.research.google.com/drive/1c92lZX2qN5vVWksmfdMTnU0o_AmNxKhC#scrollTo=aszXshJGTq5u)
+
 
 ## Usage
 
