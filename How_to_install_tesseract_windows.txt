@@ -11,36 +11,30 @@ Windows OS:
 1. Download anaconda: https://www.anaconda.com/products/individual
 2. Install anaconda (exe in Downloads folder, follow default options)
 3. Open start menu, search for anaconda power shell, run as administrator.
-4. conda create --name pytess (press y, enter)
+4. conda create --name pytess python=3.8 pip numpy pandas matplotlib (press y, enter)
 5. conda activate pytess
 6. Open anaconda navigator, from drop down menu select “Applications”, then pytess.
 7. Find Jupyter lab and click install 
-8. Check if python is installed. In the anaconda powershelgl, type python, press enter. Error? Then type exit()
-9. Install pip. Follow instructions here: https://pip.pypa.io/en/stable/installation/
- - Download the script, from https://bootstrap.pypa.io/get-pip.py.
- - Open a terminal/command prompt, cd to the folder containing the get-pip.py file and run:
- - python get-pip.py
-10. pip install pytesseract
-11. Install tesseract. Go to https://tesseract-ocr.github.io/tessdoc/Installation.html
+8. pip install pytesseract
+9. Install tesseract. Go to https://tesseract-ocr.github.io/tessdoc/Installation.html
  - Navigate to Windows, then UB Mannheim link. 
  - Go to https://github.com/UB-Mannheim/tesseract/wiki
  - Select tesseract-ocr-w64-setup....(64 bit)
  - run the exe (default settings)
-12. Add tesseract path to system environment variable:
+10. Add tesseract path to system environment variable:
  - go to start menu, search for edit system environment variables
  - go to environment variables
  - system variables, path, new, paste C:\Users\name\AppData\Local\Programs\Tesseract-OCR (Path to tesseract)
  - Press ok.
-13. type: tesseract --list-langs (after restarting terminal)
-14. go to https://github.com/tesseract-ocr/tessdata
+11. type: tesseract --list-langs (after restarting terminal)
+12. go to https://github.com/tesseract-ocr/tessdata
  - download more language models (download as zip file)
-15. go to C:\Users\name\AppData\Local\Programs\Tesseract-OCR\tessdata
+13. go to C:\Users\name\AppData\Local\Programs\Tesseract-OCR\tessdata
  - paste the language models
-16. type: tesseract --list-langs (more languages now?)
-17. pip install matplotlib
-18. pip install opencv-python
-19. type: jupyter lab
-20. open OCR_singleImage.ipynb. Run (two arrow buttons).
+14. type: tesseract --list-langs (more languages now?)
+15. pip install opencv-python
+16. type: jupyter lab (enter)
+17. open OCR_singleImage.ipynb. Run (two arrow buttons).
 
 
 NOTE:

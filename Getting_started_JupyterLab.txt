@@ -1,0 +1,62 @@
+
+MacOS:
+
+1. Download anaconda: https://www.anaconda.com/products/individual
+
+2. Install anaconda (pkg file in Downloads folder, follow default options)
+
+3. Open terminal
+
+4. conda create --name course_lab python=3.8 pip numpy pandas matplotlib (press y, enter)
+
+5. conda activate course_lab
+
+6. pip install Jupyter lab
+
+7. type: jupyter lab (Press enter)
+
+Note: in case of error, type: jupyter lab --core-mode
+
+--------
+
+Windows OS:
+
+1. Download anaconda: https://www.anaconda.com/products/individual
+
+2. Install anaconda (.exe in Downloads folder, follow default options)
+
+3. Open start menu, search for anaconda power shell, run as administrator.
+
+4. onda create --name course_lab python=3.8 pip numpy pandas matplotlib (press y, enter)
+
+5. conda activate course_lab
+
+6. Open anaconda navigator, from drop down menu select “Applications”, then course_lab.
+
+7. Find Jupyter lab in the anaconda navigator and click install 
+
+8. type: jupyter lab (Press enter)
+
+Note: in case of error, type: jupyter lab --core-mode
+
+---------
+
+NOTE:
+
+On Windows, macOS, and Linux, it is best to install Anaconda for the local user, which does not require administrator permissions and is the most robust type of installation. However, with administrator permissions, you can install Anaconda system wide.
+
+In case pip is missing, alternative ways to install pip include:
+
+MacOS:
+
+ - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ - python3 get-pip.py
+
+
+Windows:
+Follow instructions here: https://pip.pypa.io/en/stable/installation/
+
+ - Download the script, from https://bootstrap.pypa.io/get-pip.py (go to https://bootstrap.pypa.io, find get-pip.py, right click on it, save)
+ - Open terminal/command prompt, change directory to the folder containing the get-pip.py file (e.g. cd Downloads) and run:
+ - python get-pip.py
+

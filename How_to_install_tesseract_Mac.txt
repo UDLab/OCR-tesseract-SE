@@ -12,35 +12,28 @@ Mac OS:
 1. Download anaconda: https://www.anaconda.com/products/individual
 2. Install anaconda (pkg file in Downloads folder, follow default options)
 3. Open terminal
-4. conda create --name pytess (press y, enter)
+4. conda create --name pytess python=3.8 pip numpy pandas matplotlib (press y, enter)
 5. conda activate pytess
-7. Install latest Python: 
- - brew install python3
-8. Check if python is installed. In the terminal, type python3, press enter. Error? Type exit()
-9. Install pip:
- - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
- - python3 get-pip.py
-10. pip install Jupyter lab
-11. pip install pytesseract
-12. Install tesseract: 
+6. pip install Jupyter lab
+7. pip install pytesseract
+8. Install tesseract: 
  - The easiest way to install Tesseract OCR on Mac is using Homebrew. 
  - If you don't have Homebrew installed, just go to Homebrew's site (http://brew.sh/), open your terminal, and run the Ruby script that is on the front page. 
 - You may be required to type in your administrator password.
  - brew install tesseract
  - The tesseract directory can then be found using brew info tesseract (if needed)
  - e.g. /opt/homebrew/Cellar/tesseract/4.1.3/
-13. In the terminal type: tesseract
+9. In the terminal type: tesseract
  - Any error? If not, then we are good :)
  - Error (tesseract not found)? Add tesseract path to system environment. 
-14. The English language is already included in this installation. If you want to install other language packs, just run the following command:
+10. The English language is already included in this installation. If you want to install other language packs, just run the following command:
  - brew install tesseract --all-languages 
-15. type: tesseract --list-langs 
+11. type: tesseract --list-langs 
  - can you see all the languages? 
 - If not, restart the terminal and type the same command after: conda activate pytess
-16. pip install matplotlib
-17. pip install opencv-python
-18. type: jupyter lab
-19. select OCR_singleImage.ipynb. Run (two arrow buttons).
+12. pip install opencv-python
+13. type: jupyter lab
+14. select OCR_singleImage.ipynb. Run (two arrow buttons).
 
 
 NOTE:
