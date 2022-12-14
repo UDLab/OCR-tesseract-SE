@@ -18,7 +18,7 @@ Mac OS:
 7. pip install pytesseract
 8. Install tesseract: 
  - The easiest way to install Tesseract OCR on Mac is using Homebrew. 
- - If you don't have Homebrew installed, just go to Homebrew's site (http://brew.sh/), open your terminal, and run the Ruby script that is on the front page. 
+ - If you don't have Homebrew installed, just go to Homebrew's site (http://brew.sh/), open your terminal, and run the Ruby script that is on the front page. echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
 - You may be required to type in your administrator password.
  - brew install tesseract
  - The tesseract directory can then be found using brew info tesseract (if needed)
