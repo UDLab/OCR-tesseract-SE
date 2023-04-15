@@ -33,7 +33,4 @@ If you are from non-technical background, and would like to set up pytesseract o
 
 ## Contact
 
-Ekta Vats (ekta.vats@abm.uu.se) <br />
-Centre for Digital Humanities <br />
-Uppsala University <br />
-Sweden
+Ekta Vats (ektavats@gmail.com) <br />
